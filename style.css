@@ -1,0 +1,86 @@
+ @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:ital,opsz,wght@1,9..144,700&family=Inter:wght@400;700&family=Lexend+Deca&family=Montserrat:ital,wght@1,500;1,600&display=swap'); 
+ /*font-family: 'Big Shoulders Display', cursive;
+font-family: 'Fraunces', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+:root{
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    width:100%; 
+}
+.container{
+    display:flex;
+    align-items: center;
+    margin:auto;
+    padding:50px;
+    height:100vh;
+  
+}
+.type1{
+    background-color: var(--Bright-orange);
+    color:white;
+    padding: 20px;
+    height: 250px;
+
+}
+.type2{
+    background-color: var(--Dark-cyan);
+    color:white;
+    padding: 20px; 
+    height: 250px;
+     
+}
+.type3{
+    background-color: var(--Very-dark-cyan);
+    color:white;
+    padding: 20px; 
+    height: 250px; 
+
+}
+p{
+  color:hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 10px;
+  line-height: 1.2em;
+}
+.btn1{
+    background-color: hsl(0, 0%, 95%);
+    color:var(--Bright-orange);
+    border-radius: 20px;
+    padding:15px 25px;
+    border:none;
+    cursor: pointer; 
+}
+.btn2{
+    background-color: hsl(0, 0%, 95%);
+    color: var(--Dark-cyan);
+    border-radius: 20px;
+    padding:15px 25px;
+    border:none;
+  
+}
+.btn3{
+    background-color: hsl(0, 0%, 95%);
+    color: var(--Very-dark-cyan);
+    border-radius: 20px;
+    padding:15px 25px;
+    border:none; 
+    cursor: pointer; 
+    
+}
+.btn1,.btn2,.btn3:hover{
+    cursor: pointer;
+}
+
+
+
+
+
